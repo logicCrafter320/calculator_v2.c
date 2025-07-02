@@ -46,4 +46,4 @@ Feel free to fork and enhance the calculator (add history, save results, etc.)
 
 ---
 
-> Project by [Your Name]. Made with ❤️ to learn and help others learn C.
+> Project by [Jothi Ganesh]. Made with ❤️ to learn and help others learn C.
