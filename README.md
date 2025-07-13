@@ -1,49 +1,39 @@
-# 🧮 C Calculator – Version 2.0
+# 🔢 C Calculator V2 – Enhanced Version
 
-This is a simple **console-based calculator** written in C. Version 2.0 adds improvements like input validation and looping for multiple operations.
-
-## 🚀 Features
-
-- Perform basic arithmetic operations: `+`, `-`, `*`, `/`
-- Loop allows multiple calculations without restarting the program
-- Exit easily using `y/n` prompt after each operation
-- Division by zero is handled gracefully
-- Clear and readable output format
-
-## 🧠 What You’ll Learn
-
-- C basics: variables, conditionals, loops
-- `do...while` loop for repeating operations
-- - `switch` statements for operation selection
-- Input validation using conditions
-
-## 🛠️ How to Run
-
-### On Linux / macOS:
-```bash
-gcc calculator_v2.c -o calculator
-./calculator
-```
-
-### On Windows (MSYS2 / GCC):
-```bash
-gcc calculator_v2.c -o calculator.exe
-./calculator.exe
-```
-## 📁 File Info
-
-- `calculator_v2.c`: Main C source file with all logic and improvements
-
-## 🔮 What’s Next (v3.0 Preview)
-
-- GUI calculator using GTK or WinAPI
-- Mouse click interface and real-time display updates
-- Expression parsing for complex calculations
-
-## 🤝 Contributing
-
-Feel free to fork and enhance the calculator (add history, save results, etc.)
+This is an advanced version of my basic C calculator that includes:
+- Multiple operations
+- Looping structure to run continuously
+- Input validation
+- Error handling (like division by zero)
 
 ---
 
-> Project by [Jothi Ganesh]. Made with ❤️ to learn and help others learn C.
+## 🚀 Features
+
+- Addition, Subtraction, Multiplication, Division
+- Loops to allow multiple calculations in a single run
+- Validated user input (numeric checks)
+- Graceful handling of edge cases (e.g., divide by 0)
+
+---
+
+## 🛠️ Built With
+
+- **Language:** C
+- **Compiler:** GCC
+- **IDE:** Visual Studio Code
+
+---
+
+## 📦 How to Compile & Run
+
+```bash
+# Clone the repo
+git clone https://github.com/logicCrafter320/calculator-v2.git
+cd calculator-v2
+
+# Compile the code
+gcc main.c -o calc
+
+# Run the program
+./calc
